@@ -20,7 +20,7 @@ function createCounter() {
 
     const addButton = document.createElement('button');
     addButton.innerText = 'Add Count';
-    addButton.className = 'bg-green-500 text-white py-1 px-3 rounded mr-2 mt-px mb-1.5 transition duration-300 transform hover:bg-green-600 hover:scale-105';
+    addButton.className = 'bg-green-500 text-white py-2 px-4 rounded mr-2 mt-1 mb-2 transition duration-300 transform hover:bg-green-600 hover:scale-105 md:mr-3';
     addButton.onclick = () => {
         count++;
         countDisplay.innerText = `Count: ${count}`;
