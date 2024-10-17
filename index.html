@@ -6,20 +6,22 @@
     <title>Counter with Timer</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 p-6">
-  <h1 class="text-center font-bold font antialiased text-xl mb-8">Below is a timer and counter</h1>
-    <div id="counters" class="space-y-4"></div>
-    <button id="addCounter" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded ml-12px">Add Counter</button>
+<body class="bg-gray-100 text-black p-6 flex-col">
+    <h1 class="text-center font-bold antialiased text-xl mb-8">Below is a timer and counter</h1>
+    <button id="toggleTheme" class="mb-4 bg-gray-500 text-white py-2 px-4 rounded">Toggle Dark Mode</button>
+    <div id="counters" class="space-y-4 flex-col"></div>
+    <button id="addCounter" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded">Add Counter</button>
     
     <h2 class="mt-6 text-xl font-bold">How to use:</h2>
-    <li class=" mt-5 text-sm">Click Add counter!</li>
-    <li class=" mt-5 text-sm">Press start timer</li>
-    <li class=" mt-5 text-sm">And add count to stop</li>
+    <li class="mt-5 text-sm">Click Add counter!</li>
+    <li class="mt-5 text-sm">Press start timer</li>
+    <li class="mt-5 text-sm">And add count to stop</li>
     <ul id="taskList" class="mt-2 list-disc list-inside"></ul>
 
-    <script src="script.js"></script>
-</body>
-        <footer class="bg-gray-800 text-white p-4">
+    <footer class="bg-gray-800 text-white p-4 rounded mt-0.5">
         <p class="text-center">Honesty is the best policy</p>
     </footer>
+    
+    <script src="script.js"></script>
+</body>
 </html>
