@@ -5,7 +5,7 @@ A counter with a timer
 ## * Press the start timer to start time
 ## * Press add count and it will automatically stop it will list the task you've done.
 
-### You can visit the site here: 
+### You can visit the site here: https://xrid-drix.github.io/Xrid-driX/
 
 <!---
 Xrid-driX/Xrid-driX is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
