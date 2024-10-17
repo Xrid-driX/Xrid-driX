@@ -1,6 +1,6 @@
 This is a counter with a timer
 
-#h1 How to use?
+# H1 How to use?
 
 <!---
 Xrid-driX/Xrid-driX is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
